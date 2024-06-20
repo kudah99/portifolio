@@ -1,0 +1,126 @@
+{
+  "status": "done",
+  "assets": {
+    "fonts/fonts/fontawesome-webfont3e6e.eot": {
+      "name": "fonts/fonts/fontawesome-webfont3e6e.eot",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\fonts\\fonts\\fontawesome-webfont3e6e.eot",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/fonts/fonts/fontawesome-webfont3e6e.eot"
+    },
+    "fonts/fonts/fontawesome-webfont3e6e.ttf": {
+      "name": "fonts/fonts/fontawesome-webfont3e6e.ttf",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\fonts\\fonts\\fontawesome-webfont3e6e.ttf",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/fonts/fonts/fontawesome-webfont3e6e.ttf"
+    },
+    "fonts/fonts/fontawesome-webfont3e6e.woff": {
+      "name": "fonts/fonts/fontawesome-webfont3e6e.woff",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\fonts\\fonts\\fontawesome-webfont3e6e.woff",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/fonts/fonts/fontawesome-webfont3e6e.woff"
+    },
+    "fonts/fonts/fontawesome-webfontd41d.eot": {
+      "name": "fonts/fonts/fontawesome-webfontd41d.eot",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\fonts\\fonts\\fontawesome-webfontd41d.eot",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/fonts/fonts/fontawesome-webfontd41d.eot"
+    },
+    "fonts/fonts/Pe-icon-7-strokebb1d.eot": {
+      "name": "fonts/fonts/Pe-icon-7-strokebb1d.eot",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\fonts\\fonts\\Pe-icon-7-strokebb1d.eot",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/fonts/fonts/Pe-icon-7-strokebb1d.eot"
+    },
+    "fonts/fonts/Pe-icon-7-strokebb1d.ttf": {
+      "name": "fonts/fonts/Pe-icon-7-strokebb1d.ttf",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\fonts\\fonts\\Pe-icon-7-strokebb1d.ttf",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/fonts/fonts/Pe-icon-7-strokebb1d.ttf"
+    },
+    "fonts/fonts/Pe-icon-7-strokebb1d.woff": {
+      "name": "fonts/fonts/Pe-icon-7-strokebb1d.woff",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\fonts\\fonts\\Pe-icon-7-strokebb1d.woff",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/fonts/fonts/Pe-icon-7-strokebb1d.woff"
+    },
+    "fonts/fonts/Pe-icon-7-stroked41d.eot": {
+      "name": "fonts/fonts/Pe-icon-7-stroked41d.eot",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\fonts\\fonts\\Pe-icon-7-stroked41d.eot",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/fonts/fonts/Pe-icon-7-stroked41d.eot"
+    },
+    "html/css/owl.video.play.html": {
+      "name": "html/css/owl.video.play.html",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\html\\css\\owl.video.play.html",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/html/css/owl.video.play.html"
+    },
+    "html/fonts/fontawesome-webfont3e6e.html": {
+      "name": "html/fonts/fontawesome-webfont3e6e.html",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\html\\fonts\\fontawesome-webfont3e6e.html",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/html/fonts/fontawesome-webfont3e6e.html"
+    },
+    "html/fonts/glyphicons-halflings-regular-2.html": {
+      "name": "html/fonts/glyphicons-halflings-regular-2.html",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\html\\fonts\\glyphicons-halflings-regular-2.html",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/html/fonts/glyphicons-halflings-regular-2.html"
+    },
+    "html/fonts/glyphicons-halflings-regular-3.html": {
+      "name": "html/fonts/glyphicons-halflings-regular-3.html",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\html\\fonts\\glyphicons-halflings-regular-3.html",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/html/fonts/glyphicons-halflings-regular-3.html"
+    },
+    "html/fonts/glyphicons-halflings-regular-4.html": {
+      "name": "html/fonts/glyphicons-halflings-regular-4.html",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\html\\fonts\\glyphicons-halflings-regular-4.html",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/html/fonts/glyphicons-halflings-regular-4.html"
+    },
+    "html/fonts/glyphicons-halflings-regular-5.html": {
+      "name": "html/fonts/glyphicons-halflings-regular-5.html",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\html\\fonts\\glyphicons-halflings-regular-5.html",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/html/fonts/glyphicons-halflings-regular-5.html"
+    },
+    "html/fonts/glyphicons-halflings-regular.html": {
+      "name": "html/fonts/glyphicons-halflings-regular.html",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\html\\fonts\\glyphicons-halflings-regular.html",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/html/fonts/glyphicons-halflings-regular.html"
+    },
+    "html/fonts/glyphicons-halflings-regulard41d.html": {
+      "name": "html/fonts/glyphicons-halflings-regulard41d.html",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\html\\fonts\\glyphicons-halflings-regulard41d.html",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/html/fonts/glyphicons-halflings-regulard41d.html"
+    },
+    "images/fonts/fontawesome-webfont3e6e.svg": {
+      "name": "images/fonts/fontawesome-webfont3e6e.svg",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\images\\fonts\\fontawesome-webfont3e6e.svg",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/images/fonts/fontawesome-webfont3e6e.svg"
+    },
+    "images/fonts/Pe-icon-7-strokebb1d.svg": {
+      "name": "images/fonts/Pe-icon-7-strokebb1d.svg",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\images\\fonts\\Pe-icon-7-strokebb1d.svg",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/images/fonts/Pe-icon-7-strokebb1d.svg"
+    },
+    "main.css": {
+      "name": "main.css",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\main.css",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/main.css"
+    },
+    "main.css.map": {
+      "name": "main.css.map",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\main.css.map",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/main.css.map"
+    },
+    "main.js": {
+      "name": "main.js",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\main.js",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/main.js"
+    },
+    "main.js.map": {
+      "name": "main.js.map",
+      "path": "C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\bundles\\dev\\main.js.map",
+      "publicPath": "http://127.0.0.1:8000/static/bundles/dev/main.js.map"
+    }
+  },
+  "chunks": {
+    "main": [
+      "main.css",
+      "main.js",
+      "main.css.map",
+      "main.js.map"
+    ]
+  },
+  "publicPath": "http://127.0.0.1:8000/static/bundles/dev/",
+  "error": "ModuleNotFoundError",
+  "message": "Module not found: Error: Can't resolve 'modernizr' in 'C:\\Users\\kudak\\OneDrive\\Documents\\GitHub\\portifolio\\assets\\js'"
+}

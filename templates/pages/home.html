@@ -1,0 +1,169 @@
+{% extends 'base.html' %} {% load i18n static %} {% block page_title %} {% trans
+'Kudakwashe Chris Chipangura Portfolio - Home' %}{% endblock %} {% block body %}
+<section class="pt-page pt-page-1" data-id="about_me">
+  <div class="section-title-block">
+    <h2 class="section-title">About Me</h2>
+    <h5 class="section-description">
+      Full Stack developer / Systems developer / Python automation
+    </h5>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-12 mobile-visible subpage-block">
+      <div class="my-photo-small">
+        <img src="images/photo_small.jpg" alt="image" />
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-6 subpage-block">
+      <div class="general-info">
+        <h3>I am Full stack developer</h3>
+        <p>
+          I am a dedicated full-stack developer passionate about building
+          innovative web applications. With a strong foundation in both
+          front-end and back-end development, I specialize in creating seamless
+          user experiences and robust server-side functionalities.
+        </p>
+      </div>
+    </div>
+
+   
+  </div>
+
+  <!-- Services block -->
+  <div class="block-title">
+    <h3>Services</h3>
+  </div>
+
+  <div class="row">
+    {% for service in services %}
+        <div class="col-sm-6 col-md-3 subpage-block">
+            <div class="service-block">
+                <div class="service-info">
+                    <img src="{{ service.image }}" alt="{{ service.name }}" />
+                    <h4>{{ service.name }}</h4>
+                    <p>{{ service.description }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+  <!-- End of Services block -->
+
+  <!-- Technology Stack block -->
+<!-- Technology Stack block -->
+<div class="block-title">
+    <h3>Technology Stack</h3>
+  </div>
+  
+  <div class="row">
+    <div class="col-sm-4 col-md-2 subpage-block">
+      <div class="client_block">
+        <a href="https://angular.io" target="_blank" rel="nofollow">
+          <img src="https://camo.githubusercontent.com/8886130b3d8aba95dbdd7c4f9a41029606424cc06d1873c1ced87dd55a222fef/68747470733a2f2f616e67756c61722e696f2f6173736574732f696d616765732f6c6f676f732f616e67756c61722f616e67756c61722e737667" alt="angular" width="40" height="40" style="max-width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-2 subpage-block">
+      <div class="client_block">
+        <a href="https://aws.amazon.com" target="_blank" rel="nofollow">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40" style="max-width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-2 subpage-block">
+      <div class="client_block">
+        <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="nofollow">
+          <img src="https://camo.githubusercontent.com/03bccffefbc6c68df6f8b2f6de1069b0d78cfd88bdda2bc28ba2f5645d06ebca/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6d6963726f736f66745f617a7572652f6d6963726f736f66745f617a7572652d69636f6e2e737667" alt="azure" width="40" height="40" style="max-width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-2 subpage-block">
+      <div class="client_block">
+        <a href="https://www.cprogramming.com/" target="_blank" rel="nofollow">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40" style="max-width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-2 subpage-block">
+      <div class="client_block">
+        <a href="https://www.djangoproject.com/" target="_blank" rel="nofollow">
+          <img src="https://camo.githubusercontent.com/c96cb99431280ee1fdce3fe6b5338c5aca7bcaf94331b7426803ac9b426f6cef/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f646a616e676f2e737667" alt="django" width="40" height="40" style="max-width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-2 subpage-block">
+      <div class="client_block">
+        <a href="https://flutter.dev" target="_blank" rel="nofollow">
+          <img src="https://camo.githubusercontent.com/a682e207ce9939518c8617c6340b1bf8b1769b30a9f1b45d27d67fd64af1d0f2/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f666c7574746572696f2f666c7574746572696f2d69636f6e2e737667" alt="flutter" width="40" height="40" style="max-width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-2 subpage-block">
+      <div class="client_block">
+        <a href="https://www.java.com" target="_blank" rel="nofollow">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40" style="max-width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-2 subpage-block">
+      <div class="client_block">
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="nofollow">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" style="max-width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-2 subpage-block">
+      <div class="client_block">
+        <a href="https://www.mongodb.com/" target="_blank" rel="nofollow">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" style="max-width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-2 subpage-block">
+      <div class="client_block">
+        <a href="https://www.nginx.com" target="_blank" rel="nofollow">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40" style="max-width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-2 subpage-block">
+      <div class="client_block">
+        <a href="https://www.postgresql.org" target="_blank" rel="nofollow">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40" style="max-width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-2 subpage-block">
+      <div class="client_block">
+        <a href="https://www.python.org" target="_blank" rel="nofollow">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" style="max-width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-2 subpage-block">
+      <div class="client_block">
+        <a href="https://pytorch.org/" target="_blank" rel="nofollow">
+          <img src="https://camo.githubusercontent.com/1e72f25c526d43089e8363a10ac4d99eb6e1cf613652c659d77bcdeeda657356/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f7079746f7263682f7079746f7263682d69636f6e2e737667" alt="pytorch" width="40" height="40" style="max-width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-2 subpage-block">
+      <div class="client_block">
+        <a href="https://redis.io" target="_blank" rel="nofollow">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40" style="max-width: 100%;">
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-4 col-md-2 subpage-block">
+      <div class="client_block">
+        <a href="https://www.rust-lang.org" target="_blank" rel="nofollow">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rust/rust-plain.svg" alt="rust" width="40" height="40" style="max-width: 100%;">
+        </a>
+      </div>
+  <!-- End of  Technology Stack block -->
+</section>
+
+{% include "pages/resume.html" %}
+{% include "pages/portfolio.html" %}
+{% include "pages/contact.html" %}
+{% endblock %}
